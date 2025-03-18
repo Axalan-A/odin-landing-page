@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Roboto";    
+    flex-grow: 1;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.header h1,
+.introduction h2 {
+    color: #f9faf8;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.introduction h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.introduction p,
+.header a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.introduction {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    flex-grow: 1;
+}
+
+.intro-text {
+    width: 500px;
+}
+.intro-image {
+    width: 400px;
+}
+
+.information {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    border: 2px #3882f6;
+    width: 170px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author {
+    text-align: right;
+}
